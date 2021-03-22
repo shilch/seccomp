@@ -1,0 +1,9 @@
+{
+  "execve": ["string"],
+  "mprotect": ["-", "immediate", "immediate"],
+  "write": ["-", "string", "immediate"],
+  "socket": ["immediate", "immediate", "immediate"],
+  "bind": ["-", "sockaddr", "immediate"],
+  "listen": ["-", "immediate"],
+  "accept": ["-", "sockaddr", "socklen"]
+}
